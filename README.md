@@ -1,12 +1,32 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Crypto Gallery with Pagination
 
-Currently, two official plugins are available:
+This is a **Crypto Gallery** built with **React** that fetches cryptocurrency data from the **CoinGecko API**. The application displays a list of cryptocurrencies with their names, images, and prices, and incorporates **pagination** to navigate through large datasets easily.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Pagination
+Overview of Pagination
+Pagination is a technique used to split a large dataset into smaller, manageable chunks (pages). This feature is especially useful for displaying large lists of data (like cryptocurrencies) without overwhelming the user or overloading the browser with too much data at once.
 
-## Expanding the ESLint configuration
+In this app, pagination allows users to view 8 cryptocurrencies per page and easily navigate between pages to see more.
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Features
+
+- **Cryptocurrency Data**: Displays real-time cryptocurrency data such as name, image, and current price.
+- **Pagination**: Divides the list into multiple pages for better navigation and performance.
+- **Responsive Design**: Uses Tailwind CSS to make the gallery responsive, adapting to different screen sizes.
+- **Hover Effects**: Cards have hover effects for a better user experience.
+
+## Technologies Used
+
+- **React**: A JavaScript library for building user interfaces.
+- **Axios**: A promise-based HTTP client to fetch data from the CoinGecko API.
+- **Tailwind CSS**: A utility-first CSS framework for fast and flexible styling.
+- **CoinGecko API**: Provides real-time cryptocurrency data for the application.
+
+## Installation
+
+To set up the project on your local machine:
+
+ **Clone the repository**:
+ git clone https://github.com/SanthoshKumar49451/crypto-gallery.git
+
